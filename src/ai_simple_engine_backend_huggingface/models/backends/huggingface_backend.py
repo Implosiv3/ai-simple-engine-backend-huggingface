@@ -1,5 +1,5 @@
 from ai_simple_engine_backend_huggingface.models.backends.clients.huggingface_client import HuggingfaceClient
-from ai_simple_engine_backend_huggingface.consts import HUGGINGFACE_BACKEND_PROVIDER
+from ai_simple_engine_backend_huggingface.consts import HUGGINGFACE_BACKEND_PROVIDER_NAME
 from ai_simple_engine.models.installed_model import InstalledModel
 from ai_simple_engine.models.backends.abstract import ModelBackend
 from ai_simple_engine.plugins.plugin_context import PluginContext
@@ -16,7 +16,7 @@ class HuggingfaceBackend(
     def provider(
         self
     ) -> str:
-        return HUGGINGFACE_BACKEND_PROVIDER
+        return HUGGINGFACE_BACKEND_PROVIDER_NAME
 
     def __init__(
         self,
@@ -58,7 +58,7 @@ class HuggingfaceBackend(
         # TODO: Create a PathResolver to do this
         path = (
             self._settings.models_directory
-            / str(spec.family)
+            / spec.family
             / spec.identifier
         )
 

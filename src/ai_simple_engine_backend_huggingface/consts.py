@@ -1,5 +1,5 @@
-HUGGINGFACE_BACKEND_PROVIDER = 'huggingface'
+HUGGINGFACE_BACKEND_PROVIDER_NAME = 'huggingface'
 """
-The value used as the `provider` property
-for the `HuggingfaceBackend` class.
+The name of the `provider` property for the
+`HuggingfaceBackend` class.
 """
