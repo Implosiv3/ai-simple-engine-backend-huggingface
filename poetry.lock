@@ -2,14 +2,26 @@
 
 [[package]]
 name = "ai-simple-engine"
-version = "0.1.6"
+version = "0.1.8"
 description = "AI Simple Engine"
 optional = false
 python-versions = "<3.12,>=3.10"
 groups = ["main"]
 files = [
-    {file = "ai_simple_engine-0.1.6-py3-none-any.whl", hash = "sha256:07f2b04b49f16e7c43a4c9e93c0393bc6a6ca8854f32daf0197de3dc2c7db96d"},
-    {file = "ai_simple_engine-0.1.6.tar.gz", hash = "sha256:e4ea8588caed66a6f44c7c9a16c386cbc968fb47d9a4337f259e463ab46b5edf"},
+    {file = "ai_simple_engine-0.1.8-py3-none-any.whl", hash = "sha256:bdfcdf2d582ad7641ef574460c59e3c930fd907efc624fda0c1f6290591d5781"},
+    {file = "ai_simple_engine-0.1.8.tar.gz", hash = "sha256:dd937eb415f3691ea85caa464b9e9b0145a50443ace3c28e85fd4161e4b7c350"},
+]
+
+[[package]]
+name = "ai-simple-engine-common"
+version = "0.0.3"
+description = "AI Simple Engine Common Module"
+optional = false
+python-versions = "<3.12,>=3.10"
+groups = ["main"]
+files = [
+    {file = "ai_simple_engine_common-0.0.3-py3-none-any.whl", hash = "sha256:1322dbeb9dbda4237f0c958914940bb0377476314d0aa7fedfdad9b80213a62e"},
+    {file = "ai_simple_engine_common-0.0.3.tar.gz", hash = "sha256:67c2695bd2367b0e290379964abda076de81df9e38ee1d9ab49cbd0294e7bb6b"},
 ]
 
 [[package]]
@@ -647,4 +659,4 @@ markers = {dev = "python_version == \"3.10\""}
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<3.12"
-content-hash = "776393e3a7a91dda053643f6c9c2f446165e99c74d7a1f81e6df0f88bcc6d78a"
+content-hash = "1893c112bc862e941f5a26174c36a6be617bc7dabea4440d5cf9b46098cd8dac"
